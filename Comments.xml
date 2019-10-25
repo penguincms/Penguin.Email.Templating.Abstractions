@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Email.Templating.Abstractions</name>
+        <name>Penguin.Email.Templating.Abstractions.Local</name>
     </assembly>
     <members>
         <member name="T:Penguin.Email.Templating.Abstractions.Interfaces.IEmailTemplate">

@@ -7,8 +7,8 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj" />
   </ItemGroup>
 </Project>
