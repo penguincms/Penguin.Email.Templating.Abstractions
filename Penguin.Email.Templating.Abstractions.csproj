@@ -10,7 +10,7 @@
     <DocumentationFile>Penguin.Email.Templating.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Email.Abstractions" Version="5.0.6-TAHULSY" />
-    <PackageReference Include="Penguin.Templating.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Email.Abstractions" Version="5.0.6-TATDFB4" />
+    <PackageReference Include="Penguin.Templating.Abstractions" Version="5.0.6-TATDFB4" />
   </ItemGroup>
 </Project>
