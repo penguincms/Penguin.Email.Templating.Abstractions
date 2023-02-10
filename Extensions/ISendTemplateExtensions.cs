@@ -9,10 +9,7 @@ namespace Penguin.Email.Templating.Abstractions.Extensions
     {
         public static void TrySendTemplate(this ISendTemplates sender, Dictionary<string, object> model, DateTime? SendDate = null, string HandlerName = null, IEmailMessage Overrides = null)
         {
-            if (sender != null)
-            {
-                sender.GenerateEmailFromTemplate(model, SendDate, HandlerName, true, Overrides);
-            }
+            sender?.GenerateEmailFromTemplate(model, SendDate, HandlerName, true, Overrides);
         }
     }
 }
